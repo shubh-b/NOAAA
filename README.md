@@ -101,7 +101,7 @@ eq_time(size="EQ_PRIMARY",color="DEATHS",alpha=0.5,timeline_label=TRUE)
 
 ![](output_images/fig_2.png)<!-- -->
 
-### 2 Countries
+### Countries
 
 
 ```r
@@ -112,7 +112,7 @@ eq_time(y="COUNTRY",color="DEATHS",alpha=0.5)
 
 ![](output_images/fig_3.png)<!-- -->
 
-### 2 Countries With Location Names
+### Countries With Location Names
 
 
 ```r
