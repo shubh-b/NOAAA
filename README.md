@@ -44,7 +44,7 @@ library(dplyr)
 library(readr)
 library(stringr)
 
-library(ykvdpcap)
+library(NOAAA)
 data<-system.file('extdata','data.gz', package = 'NOAAA')
 
 eq_data <- eq_data_read(data)
