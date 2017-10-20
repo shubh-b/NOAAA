@@ -1,7 +1,9 @@
 # NOAAA
 R Package for analysing Significant Earthquake Database in National Centers for Environmental Information
+
 08/10/2017
 
+[![Build Status](https://travis-ci.org/shubh-b/NOAAA.svg?branch=master)](https://travis-ci.org/shubh-b/NOAAA)
 
 
 ## Installation
@@ -42,7 +44,7 @@ library(dplyr)
 library(readr)
 library(stringr)
 
-library(ykvdpcap)
+library(NOAAA)
 data<-system.file('extdata','data.gz', package = 'NOAAA')
 
 eq_data <- eq_data_read(data)
@@ -99,7 +101,7 @@ eq_time(size="EQ_PRIMARY",color="DEATHS",alpha=0.5,timeline_label=TRUE)
 
 ![](output_images/fig_2.png)<!-- -->
 
-### 2 Countries
+### Countries
 
 
 ```r
@@ -110,7 +112,7 @@ eq_time(y="COUNTRY",color="DEATHS",alpha=0.5)
 
 ![](output_images/fig_3.png)<!-- -->
 
-### 2 Countries With Location Names
+### Countries With Location Names
 
 
 ```r
