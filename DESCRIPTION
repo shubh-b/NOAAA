@@ -4,7 +4,7 @@ Title: NOAA Earthquake data Visualizations
 Version: 0.1.0
 Date: 2017-10-09
 Author: SUBHABRATA
-Maintainer: SUBHABRATA <subhabrata.patra@meritrac.com>
+Maintainer: SUBHABRATA <subhabrata.patra@merittrac.com>
 Description: Analyse Significant Earthquake Database in National Centers for 
     Environmental Information
 Depends: R (>= 3.1.2)
